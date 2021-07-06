@@ -67,6 +67,21 @@ p{
     width: 90%;
     display: block;
 }
+.bonus-work{
+    display: flex;
+    box-shadow: 20px 20px 80px wheat;
+    border-radius: 20px;
+    padding: 20px 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    
+}
+.width3{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .footer-area{
     width: 100%;
     background-position: center;
