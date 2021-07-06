@@ -16,6 +16,7 @@ p{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .width1{
     width: 50%;
@@ -23,6 +24,9 @@ section{
 }
 .width1 img{
     width:130%
+}
+.width2 img{
+    width: 100%;
 }
 .button1{
     text-decoration: none;
@@ -35,4 +39,9 @@ section{
 .banner1{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+}
+.banner2{
+    background-image: url(images/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
