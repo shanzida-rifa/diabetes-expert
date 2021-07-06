@@ -6,15 +6,20 @@ h1{
     font-size: 50px;
 }
 h3{
-    font-size: 30px;
+    font-size: 35px;
 }
 .lemon-color{
     color: limegreen;
 }
 p{
-    font-size: 20px;
+    font-size: 25px;
 }
-section{
+.rcp-area{
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 300px;
+}
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -23,16 +28,16 @@ section{
     padding: 5%;
 }
 .width1 img{
-    width:130%
+    width:100%
 }
 .width2 img{
     width: 100%;
 }
 .button1{
     text-decoration: none;
-    background-image: linear-gradient(green, limegreen);
+    background-image: linear-gradient(orange, tomato);
     color: white;
-    font-weight: 400;
+    font-weight: 700;
     padding: 10px 40px;
     border-radius: 5px;
 }
@@ -44,4 +49,33 @@ section{
     background-image: url(images/Frame\ 57.jpg);
     background-repeat: no-repeat;
     background-position: right;
+}
+.chart-item{
+    width:100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 25px;
+}
+.chart-item img{
+    padding-top: 15px;
+    padding-right: 4%;
+    padding-left: 3%;
+    border-radius: 40px 40px 40px 40px;
+    text-align: center;
+    width: 90%;
+    display: block;
+}
+.footer-area{
+    width: 100%;
+    background-position: center;
+    background-color: mediumseagreen;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    font-size: 30px;
+}
+.footer-h1{
+    color: lightskyblue;
 }
